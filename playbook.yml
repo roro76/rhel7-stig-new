@@ -1,5 +1,5 @@
 - hosts: all
-    roles:
+  roles:
     - role: rhel7-stig
       when:
         - ansible_os_family == 'RedHat'
